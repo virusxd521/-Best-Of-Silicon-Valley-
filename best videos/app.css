@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.youtube {
+  height: 100px;
+  margin-left: 360px;
+}
+
+.h {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  margin-left: 450px;
+  margin-top: -73px;
+}
+
+iframe {
+  margin-top: 30px;
+  margin-left: 48px;
+  width: 55em;
+  height: 35em;
+  box-shadow: 5px 5px 5px 6px;
+}
+
+@media (min-width: 1000px) {
+  iframe {
+    width: 59em;
+  }
+}
+
+@media (min-width: 1080px) {
+  iframe {
+    width: 92%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .h {
+    margin-left: 650px;
+  }
+
+  .youtube {
+    margin-left: 560px;
+  }
+
+  .backhome {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 2400px) {
+  iframe {
+    height: 800px;
+    width: 95%;
+  }
+
+  .youtube {
+    margin-left: 1060px;
+  }
+
+  .h {
+    margin-left: 1150px;
+  }
+
+  .backhome {
+    margin-left: 700px;
+  }
+}
+
+/* ---------- */
+
+.backhome {
+  margin-top: 20px;
+}
+
+.backhome a {
+  text-decoration: none;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 390px;
+  transition-duration: 0.1s;
+  transition-delay: 0.3s;
+}
+
+.backhome a:hover {
+  border-bottom: solid rgb(228, 33, 33) 2px;
+}
