@@ -5,7 +5,8 @@ fetch(
 )
   .then(response => response.json())
   //   .then(adds => console.log(adds.items[0].id))
-  .then(arr => fetching(arr.items[0].id));
+  .then(arr => fetching(arr.items[0].id))
+  .catch(error => console.log(error));
 
 function fetching(data) {
   const html = `
